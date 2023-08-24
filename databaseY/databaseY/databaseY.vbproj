@@ -1,0 +1,482 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CFE50C91-15CE-4FC0-8D1F-171006545751}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>databaseY.My.MyApplication</StartupObject>
+    <RootNamespace>databaseY</RootNamespace>
+    <AssemblyName>databaseY</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>databaseY.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>databaseY.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data">
+      <HintPath>..\..\..\VB、C\新增資料夾\bin\Debug\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="card.Designer.vb">
+      <DependentUpon>card.vb</DependentUpon>
+    </Compile>
+    <Compile Include="card.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="coach.Designer.vb">
+      <DependentUpon>coach.vb</DependentUpon>
+    </Compile>
+    <Compile Include="coach.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="coachcur.designer.vb">
+      <DependentUpon>coachcur.vb</DependentUpon>
+    </Compile>
+    <Compile Include="coachcur.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="connection.vb" />
+    <Compile Include="context.Designer.vb">
+      <DependentUpon>context.vb</DependentUpon>
+    </Compile>
+    <Compile Include="context.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="curriculum.designer.vb">
+      <DependentUpon>curriculum.vb</DependentUpon>
+    </Compile>
+    <Compile Include="curriculum.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="建立學員名單.designer.vb">
+      <DependentUpon>建立學員名單.vb</DependentUpon>
+    </Compile>
+    <Compile Include="建立學員名單.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="會員註冊.designer.vb">
+      <DependentUpon>會員註冊.vb</DependentUpon>
+    </Compile>
+    <Compile Include="會員註冊.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="登入.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="登入.Designer.vb">
+      <DependentUpon>登入.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.vb">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.vb">
+      <DependentUpon>Form3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mail.Designer.vb">
+      <DependentUpon>mail.vb</DependentUpon>
+    </Compile>
+    <Compile Include="mail.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="studentclass.Designer.vb">
+      <DependentUpon>studentclass.vb</DependentUpon>
+    </Compile>
+    <Compile Include="studentclass.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="個人資查詢.designer.vb">
+      <DependentUpon>個人資查詢.vb</DependentUpon>
+    </Compile>
+    <Compile Include="個人資查詢.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="請假.designer.vb">
+      <DependentUpon>請假.vb</DependentUpon>
+    </Compile>
+    <Compile Include="請假.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="資料修改.designer.vb">
+      <DependentUpon>資料修改.vb</DependentUpon>
+    </Compile>
+    <Compile Include="資料修改.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="退課.designer.vb">
+      <DependentUpon>退課.vb</DependentUpon>
+    </Compile>
+    <Compile Include="退課.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="選課.designer.vb">
+      <DependentUpon>選課.vb</DependentUpon>
+    </Compile>
+    <Compile Include="選課.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="重新設定密碼.designer.vb">
+      <DependentUpon>重新設定密碼.vb</DependentUpon>
+    </Compile>
+    <Compile Include="重新設定密碼.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="card.resx">
+      <DependentUpon>card.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="coach.resx">
+      <DependentUpon>coach.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="coachcur.resx">
+      <DependentUpon>coachcur.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="context.resx">
+      <DependentUpon>context.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="curriculum.resx">
+      <DependentUpon>curriculum.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="建立學員名單.resx">
+      <DependentUpon>建立學員名單.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="會員註冊.resx">
+      <DependentUpon>會員註冊.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="登入.resx">
+      <DependentUpon>登入.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mail.resx">
+      <DependentUpon>mail.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="studentclass.resx">
+      <DependentUpon>studentclass.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="個人資查詢.resx">
+      <DependentUpon>個人資查詢.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="請假.resx">
+      <DependentUpon>請假.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="資料修改.resx">
+      <DependentUpon>資料修改.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="退課.resx">
+      <DependentUpon>退課.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="選課.resx">
+      <DependentUpon>選課.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="重新設定密碼.resx">
+      <DependentUpon>重新設定密碼.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\password.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\card.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\person.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gym1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LOGin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LOGin3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LOGin4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7636861.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LOGin1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LOGin button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\益生gym.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\背景.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\柔韧提升.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\柔韧提升 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\會員卡正.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\資產 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\資產 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LOGin1 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coach主頁.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\背景c.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coach主頁1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\圖片1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\900-1100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\900-1100 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\body3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gym3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\table.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\member.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coach.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ccoach.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mail.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\m.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mmm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\螢幕擷取畫面 2023-06-12 221542.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\螢幕擷取畫面 2023-06-12 2215421.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\背景3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\背景圖.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\背景圖.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\背景圖1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\背景圖2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Page 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\主頁.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\03_Mesa de trabajo 1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\relax-01.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\名單單_Mesa de trabajo 1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\保鮮資產 21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\保鮮資產 22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yelloback.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\會員主頁.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\確認退購.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\購買課程.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LOGin1-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\請假價.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\訂單新增5資產 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\保鮮資產 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\保鮮資產 3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\class3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\member2.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

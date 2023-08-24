@@ -1,0 +1,256 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+databaseY
+</name>
+</assembly>
+<members>
+<member name="T:databaseY.My.Resources.Resources">
+<summary>
+  用於查詢當地語系化字串等的強類型資源類別。
+</summary>
+</member>
+<member name="P:databaseY.My.Resources.Resources.ResourceManager">
+<summary>
+  傳回這個類別使用的快取的 ResourceManager 執行個體。
+</summary>
+</member>
+<member name="P:databaseY.My.Resources.Resources.Culture">
+<summary>
+  覆寫目前執行緒的 CurrentUICulture 屬性，對象是所有
+  使用這個強類型資源類別的資源查閱。
+</summary>
+</member>
+<member name="P:databaseY.My.Resources.Resources._03_Mesa_de_trabajo_1">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:databaseY.My.Resources.Resources._7636861">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:databaseY.My.Resources.Resources._900_1100__2_">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:databaseY.My.Resources.Resources.back2">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:databaseY.My.Resources.Resources.ccoach">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:databaseY.My.Resources.Resources.class1">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:databaseY.My.Resources.Resources.class2">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:databaseY.My.Resources.Resources.class3">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:databaseY.My.Resources.Resources.class31">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:databaseY.My.Resources.Resources.coach">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:databaseY.My.Resources.Resources.coach主頁">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:databaseY.My.Resources.Resources.coach主頁1">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:databaseY.My.Resources.Resources.gym3">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:databaseY.My.Resources.Resources.LOGin_button">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:databaseY.My.Resources.Resources.LOGin1">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:databaseY.My.Resources.Resources.LOGin1__1_">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:databaseY.My.Resources.Resources.LOGin1_1">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:databaseY.My.Resources.Resources.LOGin4">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:databaseY.My.Resources.Resources.member">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:databaseY.My.Resources.Resources.member2">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:databaseY.My.Resources.Resources.Page_1">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:databaseY.My.Resources.Resources.relax_01">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:databaseY.My.Resources.Resources.search">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:databaseY.My.Resources.Resources.table">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:databaseY.My.Resources.Resources.yelloback">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:databaseY.My.Resources.Resources.主頁">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:databaseY.My.Resources.Resources.保鮮資產_1">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:databaseY.My.Resources.Resources.保鮮資產_21">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:databaseY.My.Resources.Resources.保鮮資產_22">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:databaseY.My.Resources.Resources.保鮮資產_3">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:databaseY.My.Resources.Resources.名單單_Mesa_de_trabajo_1">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:databaseY.My.Resources.Resources.會員主頁">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:databaseY.My.Resources.Resources.益生gym">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:databaseY.My.Resources.Resources.確認退購">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:databaseY.My.Resources.Resources.背景">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:databaseY.My.Resources.Resources.背景3">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:databaseY.My.Resources.Resources.背景c">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:databaseY.My.Resources.Resources.背景圖">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:databaseY.My.Resources.Resources.背景圖1">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:databaseY.My.Resources.Resources.背景圖11">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:databaseY.My.Resources.Resources.背景圖2">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:databaseY.My.Resources.Resources.訂單新增5資產_1">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:databaseY.My.Resources.Resources.請假價">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:databaseY.My.Resources.Resources.資產_1">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:databaseY.My.Resources.Resources.資產_2">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:databaseY.My.Resources.Resources.購買課程">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+</members>
+</doc>
